@@ -68,7 +68,7 @@ BRUSHED.slider = function(){
 		min_height		        :   0,			// Min height allowed (in pixels)
 		vertical_center         :   1,			// Vertically center background
 		horizontal_center       :   1,			// Horizontally center background
-		fit_always				:	0,			// Image will never exceed browser width or height (Ignores min. dimensions)
+		fit_always				:	1,			// Image will never exceed browser width or height (Ignores min. dimensions)
 		fit_portrait         	:   0,			// Portrait images will not exceed browser height
 		fit_landscape			:   1,			// Landscape images will not exceed browser width
 												   
@@ -79,7 +79,7 @@ BRUSHED.slider = function(){
 		slides 					:  	[			// Slideshow Images
 											{image : 'img/slider-images/image01.jpg', title : '<div class="slide-content title-center">UTHealth School of Dentistry</div>', thumb : '', url : ''},
 											{image : 'img/slider-images/class3.jpg', title : '<div class="slide-content title-near-top">Class of 2020</div>', thumb : '', url : ''},
-											{image : 'img/slider-images/dental-care-2.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''}
+											{image : 'img/slider-images/dentalhygienist.jpg', title : '', thumb : '', url : ''}
 											// {image : 'img/slider-images/image04.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''}  
 									],
 									
