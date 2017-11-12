@@ -79,7 +79,7 @@ jQuery(function($) {
 			slides: [
 				// Slideshow Images
 				{
-					image: 'img/slider-images/img_2002.jpg',
+					image: 'img/slider-images/IMG_2002.JPG',
 					title: '<div class="slide-content title-center">My Name is Han Nguyen</div>',
 					thumb: '',
 					url: ''
