@@ -309,29 +309,41 @@ h3.spec {
 
 #home-slider .slider-text {
 	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin: -150px 0 0 -585px;
-	width: 1170px;
-	height: 250px;
+	width: 100%;
+	/* left: 50%; */
+	/* top: 50%; */
+	/* margin: -150px 0 0 -585px; */
+	/* width: 1170px; */
+	/* height: 250px; */
 	text-align: center;
 	z-index: 2;	
 }
 
 #home-slider #slidecaption {
 	width: 100%;
-	line-height: 250px;
+	line-height: 100px;
 	margin: 0;
 	text-align: center;
 	text-shadow: none;	
+	bottom: 75px;
+    position: fixed;
 }
 
 #home-slider .slide-content {
-	font-size: 60px;
+	font-size: 3em;
 	color: #FFFFFF;
 	letter-spacing: -3px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
+	word-wrap: break-word;	
 }
+
+/* .title-center {
+	top: 50%;
+}
+
+.title-near-top {
+	top: 25%;
+} */
 
 #home-slider .control-nav {
 	position: absolute;
