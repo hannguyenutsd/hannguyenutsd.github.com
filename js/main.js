@@ -93,19 +93,19 @@ jQuery(function($) {
 				},
 				{
 					image: 'img/slider-images/class3.jpg',
-					title: '<div class="slide-content title-near-top">Member of Class 2020</div>',
+					title: '<div class="slide-content title-center">Member of Class 2020</div>',
 					thumb: '',
 					url: ''
 				},
 				{
 					image: 'img/slider-images/dentalhygienist.jpg',
-					title: '<div class="slide-content title-near-top">Studying Teeth</div>',
+					title: '<div class="slide-content title-center">Studying Teeth</div>',
 					thumb: '',
 					url: ''
 				},
 				{
 					image: 'img/slider-images/dental-care-2.jpg',
-					title: '<div class="slide-content">Brush Teeth Twice a day</div>',
+					title: '<div class="slide-content title-center">Brush Teeth Twice a day</div>',
 					thumb: '',
 					url: ''
 				}
