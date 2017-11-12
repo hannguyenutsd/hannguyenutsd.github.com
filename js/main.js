@@ -78,7 +78,7 @@ BRUSHED.slider = function(){
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
 											{image : 'img/slider-images/image01.jpg', title : '<div class="slide-content">UTHealth School of Dentistry</div>', thumb : '', url : ''},
-											{image : 'img/slider-images/image02.jpg', title : '<div class="slide-content">UTHealth School of Dentistry</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/class3.jpg', title : '<div class="slide-content">Class of 2020</div>', thumb : '', url : ''},
 											{image : 'img/slider-images/dental-care-2.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''}
 											// {image : 'img/slider-images/image04.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''}  
 									],
