@@ -1,7 +1,7 @@
 /* your styles go here */
 
 .content.move-top {
-  top: 230px;
+  top: 220px;
 }
 
 @media (max-width: 1000px) {
@@ -11,12 +11,17 @@
   }
 }
 
+.heading {
+  margin-bottom: 30px;
+}
+
 /* =====================
 WORKS / REFERENCES
 ===================== */
 #filter {
   text-align: center;
-  margin: 20px 0;
+  /* margin: 20px 0; */
+  margin: 0;
   padding: 0;
 }
 #filter li {
@@ -124,7 +129,8 @@ WORKS / REFERENCES
   transform: scale(1.2, 1.2);
 }
 #detail {
-  padding: 20px 0;
+  /* padding: 20px 0; */
+  padding: 0 0 20px;
   max-width: 900px;
   margin: 0 auto 0;
   display: none;
