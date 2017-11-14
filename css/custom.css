@@ -144,7 +144,7 @@ WORKS / REFERENCES
 #detail {
   /* padding: 20px 0; */
   padding: 0 0 20px;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto 0;
   display: none;
   opacity: 0;
@@ -157,7 +157,7 @@ WORKS / REFERENCES
 } */
 
 #slider {
-  max-width: 600px;
+  max-width: 500px;
   margin: auto;
 }
 
