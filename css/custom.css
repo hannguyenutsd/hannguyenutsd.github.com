@@ -115,6 +115,14 @@ WORKS / REFERENCES
   font-weight: 500;
   color: white;
 }
+
+@media (max-width: 991px) {
+  h3.reference-title {
+    font-size: 25px;
+  }
+}
+
+
 .reference-item .reference a img {
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -143,10 +151,10 @@ WORKS / REFERENCES
   filter: alpha(opacity=0);
   text-align: left;
 }
-
+/* 
 #detail-content {
   margin: 0 -100px
-}
+} */
 
 #slider {
   max-width: 600px;
