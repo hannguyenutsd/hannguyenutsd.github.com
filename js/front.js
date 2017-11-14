@@ -373,6 +373,8 @@ function openReference() {
 		}
 	}, 300);
 
+	moveUp();
+
 	setTimeout(function() {
 		$('body').scrollTo('50%', 1000, { offset: -80 });
 	}, 500);
@@ -404,6 +406,16 @@ function closeReference() {
 			.masonry();
 	}, 800);
 }
+
+function moveUp() {
+	$('section .content').each(function() {
+		var element = $(this);
+	
+		element.css('margin-top', 0);
+		element.css('transform', '');
+	});
+}
+
 
 $('#detail .close').click(function() {
 	closeReference(true);
