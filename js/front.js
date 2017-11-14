@@ -372,11 +372,10 @@ function openReference() {
 				autoWidth: true
 			});
 		}
+		moveUp();
 	}, 300);
 	
 	
-	
-	moveUp();
 
 	setTimeout(function() {
 		$('body').scrollTo('50%', 1000, { offset: -80 });
