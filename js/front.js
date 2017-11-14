@@ -409,7 +409,7 @@ function moveUp() {
 		var element = $(this);
 	
 		// element.css('margin-top', 0);
-		// element.css('transform', '');
+		element.css('transform', 'translate(0, -60%)');
 	});
 }
 
