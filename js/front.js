@@ -412,7 +412,7 @@ function moveUp() {
 	$('section#page4 .content').each(function() {
 		var element = $(this);
 	
-		element.css('margin-top', '-150px');
+		element.css('margin-top', '-75px');
 		// element.css('transform', 'translate(0, -60%)');
 	});
 }
