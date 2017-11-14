@@ -4,6 +4,10 @@
   /* top: 220px; */
 }
 
+.content {
+
+}
+
 @media (max-width: 1000px) {
   .content.move-top {
     top: 0;
@@ -132,13 +136,19 @@ WORKS / REFERENCES
 #detail {
   /* padding: 20px 0; */
   padding: 0 0 20px;
-  max-width: 900px;
+  max-width: 600px;
   margin: 0 auto 0;
   display: none;
   opacity: 0;
   filter: alpha(opacity=0);
   text-align: left;
 }
+
+#detail-content {
+  margin: 0 -200px
+}
+
+
 #detail .close {
   position: relative;
   font-size: 50px;
