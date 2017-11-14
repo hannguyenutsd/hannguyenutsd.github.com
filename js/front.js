@@ -399,7 +399,7 @@ function closeReference() {
 			.masonry();
 	}, 300);
 
-	// moveDown();
+	moveDown();
 
 	setTimeout(function() {
 		$('#references-masonry')
