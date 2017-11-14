@@ -374,7 +374,7 @@ function openReference() {
 	}, 300);
 
 	setTimeout(function() {
-		$('body').scrollTo($('#detail'), 1000, { offset: -80 });
+		$('body').scrollTo('50%', 1000, { offset: -80 });
 	}, 500);
 }
 

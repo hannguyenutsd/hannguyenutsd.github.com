@@ -1,7 +1,7 @@
 /* your styles go here */
 
 .content.move-top {
-  top: 220px;
+  /* top: 220px; */
 }
 
 @media (max-width: 1000px) {
@@ -59,7 +59,7 @@ WORKS / REFERENCES
   }
 }
 .reference-item {
-  width: 255px;
+  width: 350px;
   overflow: hidden;
 }
 @media (max-width: 1199px) {
@@ -109,6 +109,7 @@ WORKS / REFERENCES
 .reference-item .reference a .overlay h3 {
   text-transform: uppercase;
   font-weight: 500;
+  color: white;
 }
 .reference-item .reference a img {
   -webkit-transition: all 0.2s ease-out;
